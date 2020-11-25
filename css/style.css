@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+body{
+	font-family: 'Montserrat',sans-serif;
+}
+.nav-link{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 600;
+
+	}
+.nav-link:hover{
+	color: #ddd;
+
+}
+.banner{
+	height: 500px;
+	width: 100%;
+	background-image: url(../Images/Banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+.banner-text{
+	font-size: 80px;
+	text-align: center;
+/*	line-height: 500px;*/
+	color: white;
+	height: 500px;
+	width: 100%;
+	font-family: 'Sacramento', cursive;
+	background: rgba(0,0,0,0.3);
+}
+.banner-slogan{
+	font-size: 20px;
+	font-family: 
+}
+.banner-text p{
+	margin-top: 200px; 
+	margin-bottom: 0px;
+}
+.pricing,.gallery{
+	height: 900px;
+	width: 100%;
+	background-image: url(../Images/pricing-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+.contact{
+	height: 500px;
+	width: 100%;
+}
+.contact-form{
+	padding: 20px;
+}
+.first-line-contact input,
+.second-line-contact input,
+.third-line-contact input,
+.messege-line-contact textarea{
+	background: none;
+	border: none;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	width: 60%;
+	margin-bottom: 10px;
+	outline: none;
+	color: white;
+
+}
+.contact-bg{
+	background-image: url(../Images/pricing-bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: white; 
+	border-radius: 10px  0px  0px 10px; 
+}
+.footer{
+	background-image: url(../Images/pricing-bg.jpg);
+	height: 70px;
+	width: 100%;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+#submit-contact{
+	padding: 5px;
+	height: 40px;
+	width: 120px;
+	border: none;
+	outline: none;
+	background: linear-gradient(135deg, #ff4300 0%, #ffb200 100%);
+	border-radius: 80px;
+	font-weight: 600;
+}
+#submit-contact:hover{
+	background: linear-gradient(135deg, #ffb200 0%, #ff4300 100%);
+}
+
+/* Don't Css in this are different things are in here*/
+#go-down{
+	animation-name: go-down;
+	animation-duration: 0.5s;
+	animation-iteration-count: 100000000;
+}
+@keyframes go-down {
+	form{margin-top: 0;}
+	to{margin-top: 10px;}
+	
+}
+
+@media only screen and (max-width: 1244px){
+
+}
+@media only screen and (min-width: 993px){
+	.about-img{
+		height: 315px;
+	}
+	}
+@media only screen and (max-width: 1034px){
+	.slider-icon-1{
+		opacity: 0;
+		transition: 0.5s;
+	}
+}
+@media only screen and (max-width: 993px){
+	.nav-link{
+	
+		width: 100%;
+		margin: 0;
+		color: white;
+		padding-right: : 10px;
+		text-align: left;
+
+	}
+	.banner-text p{
+		margin-top: 300px;
+		transition: .5s;
+	}
+	.pricing,.gallery{
+	height: 2090px;
+	width: 100%;
+	background-image: url(../Images/pricing-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.gallery{
+		height: 2700px;
+		width: 100%;
+	}
+
+	
+}
+@media only screen and (max-width: 766px){
+		.gallery{
+			height: 2080px;
+		}
+}
+@media only screen and (max-width: 700px){
+		.banner{
+		height: 500px;
+		width: 100%;
+		background-image: url(../Images/Banner-sm.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: right;
+		background-repeat: no-repeat;
+		transition: 0.5s;
+
+				}
+		}
+@media only screen and (max-width: 400px){
+		.banner{
+		height: 400px;
+		width: 100%;
+		background-image: url(../Images/Banner-sm.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: left;
+		background-repeat: no-repeat;
+		transition: 0.5s;
+
+				}
+		}
+
+@media only screen and (min-width: 993px){
+	#bottom-row{
+		margin-left: 210px !important;
+
+	}
+	.left-bottom-column{
+		margin-left: 90px; 
+	}
+}
